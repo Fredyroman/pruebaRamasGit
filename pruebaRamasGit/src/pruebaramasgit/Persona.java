@@ -15,6 +15,7 @@ public class Persona {
     int id;
     String nombre;
     String primerApellido;
+    String direccion;
 
     public int getId() {
         return id;
@@ -38,6 +39,14 @@ public class Persona {
 
     public void setPrimerApellido(String primerApellido) {
         this.primerApellido = primerApellido;
+    }
+
+    public String getDireccion() {
+        return direccion;
+    }
+
+    public void setDireccion(String direccion) {
+        this.direccion = direccion;
     }
     
     
