@@ -15,5 +15,16 @@ public class Persona {
     int id;
     String nombre;
     String primerApellido;
+
+    public Persona() {
+    }
+
+    public Persona(int id, String nombre, String primerApellido) {
+        this.id = id;
+        this.nombre = nombre;
+        this.primerApellido = primerApellido;
+    }
+    
+    
     
 }
