@@ -16,7 +16,17 @@ public class Persona {
     String nombre;
     String primerApellido;
     String direccion;
+    String segundoApellido;
 
+
+    public Persona() {
+    }
+
+    public Persona(int id, String nombre, String primerApellido) {
+        this.id = id;
+        this.nombre = nombre;
+    }
+    
     public int getId() {
         return id;
     }
