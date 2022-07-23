@@ -15,6 +15,7 @@ public class Persona {
     int id;
     String nombre;
     String primerApellido;
+    String segundoApellido;
 
     public Persona() {
     }
